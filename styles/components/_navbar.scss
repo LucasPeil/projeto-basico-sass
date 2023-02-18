@@ -4,14 +4,16 @@ nav{
     ul{
         li{
             display: inline-block;
-            padding: 1rem;
+            padding: 1.5rem;
             a{
                 text-transform: uppercase;
                 text-decoration: none;
                 font-weight: bold;
                 color: $cor-primaria;
+                border-bottom: 2px solid white;
                 &:hover{
                     border-bottom: 2px solid $cor-secundaria;
+                    transition: all 0.3s ease-in-out;
                 }
             }
         }
